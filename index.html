@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ludo!!</title>
+	<link rel="shortcut icon" href="favicon-1.png" type="image/png" />
+	<link rel="stylesheet" type="text/css" href="../ludo.css">
+	<link href="https://fonts.googleapis.com/css?family=Bree+Serif&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Noticia+Text&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Exo+2&display=swap" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Slabo+27px&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Bitter&display=swap" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Patua+One&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Volkhov&display=swap" rel="stylesheet">  
+</head>
+<body>
+	<script type="text/javascript" src="ludo-final.js">
+		
+	</script>
+	<div class="upper-headings" style="text-align:  center;">
+		<div style="font-family: 'Bree Serif', serif;font-size:60px;color : #3C1A5B">Ludo</div>
+		<div style="font-family: 'Noticia Text', serif;font-size: 30px;color:#FFE67C">ROLL YOUR LUCK</div>
+	</div>
+	<div class ="container-box">
+			<div class="locker-a" id="locker-a-1" style="text-align: center;top: 173px;"">
+				<span style="font-size: 20px;font-family: 'Exo 2', sans-serif;">Locker Of A</span>
+				<br>
+				<br>
+				<span id="locker-a-store" style="font-size: 40px;font-family: 'Roboto Slab', serif;">2A</span>
+			</div>
+			<div class="locker-b"  style="text-align: center;">
+				<span style="font-size: 20px;font-family: 'Exo 2', sans-serif;">Locker Of B</span>
+				<br>
+				<br>
+				<span id="locker-b-store" style="font-size: 40px;font-family: 'Roboto Slab', serif;">2B</span>
+			</div>
+			<div class="main-box"style="width: 552.0px;">
+				<div class="upper-box">
+					<div id="1" class="ub1" style="background-color: #f90c0cc7;" onclick="StepUp(1)"></div>
+					<div id="2" class="ub2" onclick="StepUp(2)"> </div>
+					<div id="3" class="ub3" onclick="StepUp(3)"> </div>
+					<div id="4" class="ub4" onclick="StepUp(4)"> </div>
+					<div id="5" class="ub5" onclick="StepUp(5)"> </div>
+					<div id="6" class="ub6" onclick="StepUp(6)"> </div>
+					<div id="7" class="ub7" onclick="StepUp(7)"> </div>
+					<div id="8" class="ub8" onclick="StepUp(8)"> </div>
+				</div>
+				<div class="left-box">
+					<div id="28" style="background-color: #f009;" onclick="StepUp(28)"> </div>
+					<div id="27" onclick="StepUp(27)"> </div>
+					<div id="26" onclick="StepUp(26)"> </div>
+					<div id="25" onclick="StepUp(25)"> </div>
+					<div id="24" onclick="StepUp(24)"> </div>
+					<div id="23" onclick="StepUp(23)"> </div>
+				</div>
+				<div class="right-box">
+					<div id="9" onclick="StepUp(9)"> </div>
+					<div id="10" onclick="StepUp(10)"> </div>
+					<div id="11" onclick="StepUp(11)"> </div>
+					<div id="12" onclick="StepUp(12)"> </div>
+					<div id="13" onclick="StepUp(13)"> </div>
+					<div id="14" style="background-color: #00e3ff" onclick="StepUp(14)"> </div>
+				</div>
+				<div class="dice-roll" style="padding: 0px;text-align: center;">
+					<br>
+					<span style="font-size: 18px ;font-family: 'Slabo 27px', serif;font-weight: bold;color: black;">Custom Check</span>
+					<div>
+						<form>
+							<input  class="input_dice_value" id="userInput" type="text" name="custom_dice" style="width: 40px;height: 33px;font-family: 'Roboto Slab', serif;font-size: 16px ; border-radius: 2px;">
+						</form>
+					</div>
+					<div>
+						<img src="Dies.gif" height="80px" width="80px" id="roll-image" style="padding-top: 5px;"> 
+					</div>
+					<div id="RollOutput" style="color: white"></div>
+				</div>
+				<div class="roll-buton" style = "padding-left:235px;">
+					<p>
+						<span class="turn" id= "0" style="font-family: 'Bitter', serif;font-size: 15px;">Start  : : : A</span>
+					</p>
+					<button id="input_button" style="height: 35px;width: 80px;margin-left: 0px;font-family: 'Volkhov', serif;" onclick="RandRoll()">ROLL</button>
+				</div>
+				<div class="lower-box">
+					<div id="22" onclick="StepUp(22)" > </div>
+					<div id="21" onclick="StepUp(21)"> </div> 
+					<div id="20" onclick="StepUp(20)"> </div>
+					<div id="19" onclick="StepUp(19)"> </div>
+					<div id="18" onclick="StepUp(18)"> </div>
+					<div id="17" onclick="StepUp(17)"> </div>
+					<div id="16" onclick="StepUp(16)"> </div>
+					<div id="15" style="background-color: #0089ff;" onclick="StepUp(15)"> </div>
+				</div>
+			</div>
+	</div>
+
+</body>
+</html>

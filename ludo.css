@@ -1,0 +1,127 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+.container-box{
+	max-width: 900px;
+	margin:  0 auto ;
+	border : solid ;
+	margin-top:  1px ;
+	background-image: url('../ludo-cafe.jpg');
+	background-repeat:  no-repeat; 
+	background-size: cover;
+}
+.upper-headings{
+	margin:  0 auto ;
+	border-left:  solid ;
+	width: 900px;
+	height: 125px;
+	border: solid;
+}
+
+.main-box{
+	width: 550px;
+	margin: 0 auto;
+	margin-top: 5%;
+}
+.upper-box{
+	display: grid;
+	grid-template-columns: repeat(8,1fr);
+	grid-gap: 0px;
+
+}
+.upper-box div{
+	text-align: center;
+	width: 65px;
+	border:2px solid white;
+	font-size: 20px ;
+	padding-top: 20px;
+	height: 45px;
+	font-family: 'Volkhov', serif;
+	color: white ;
+
+}
+.left-box{
+	display: grid;
+	grid-template-rows: repeat(6,1fr);
+	float: left;
+}
+.left-box div{
+	text-align: center;
+	width: 65px;
+	border:2px solid white;
+	font-size: 20px ;
+	padding-top: 20px;
+	height: 45px;
+	font-family: 'Volkhov', serif;
+	color: white ;
+}
+.roll-buton{
+	margin: 0 auto;
+}
+.lower-box{
+	display: grid;
+	grid-template-columns: repeat(8,1fr);
+	margin-bottom: 5%;
+	clear: both;
+}
+.right-box{
+	display: grid;
+	grid-template-rows: repeat(6,1fr);
+	float: right;
+}
+.right-box div{
+	text-align: center;
+	width:65px;
+	border:2px solid white;
+	font-size: 20px ;
+	padding-top: 20px;
+	height: 45px;
+	color: white ;
+	font-family: 'Volkhov', serif;
+}
+
+.lower-box div{
+	text-align: center;
+	width: 65px;
+	border:2px solid white;
+	padding-top: 20px;
+	height: 45px;
+	font-family: 'Volkhov', serif;
+	font-size: 20px ;
+	color: white ;
+
+}
+.dice-roll{
+	height: 160px;
+	width: 200px;
+	margin-top: 130px;
+	margin-left: 170px;
+}
+.locker-b{
+	position: fixed;
+	bottom: 30px;
+	right: 320px;
+	height: 95px;
+	width: 150px;
+	border: solid;
+	padding-top: 5px;
+	background-color: #0089ff ;
+	color: white ;
+}
+.locker-a{
+	position: fixed;
+	top: 75px;
+	left: 320px;
+	height: 95px;
+	width: 150px;
+	border: solid;
+	padding-top: 5px;
+	background-color: #f009;
+	color: white;
+}
+.input_dice_value{
+	text-align: center;
+	width: 160px;
+	height: 30px;
+}
